@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/jquery-2.2.0.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+          </style>
+         </head>
+         <body>
+            <div class="container"> 
+                <span class="visible-xs"><h2>xs</h2></span>
+                <span class="visible-lg"><h2>lg</h2></span>
+                <span class="visible-md"><h2>md</h2></span>
+                <span class="visible-sm"><h2>sm</h2></span>
+                 <div class="row"> 
+                        <!--INICIO PRIMERA FILA-->
+                   <div id="nav" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "> 
+                       <div class="visible-lg visible-md visible-sm visible-xs">
+                            <div id="div" class="col-lg-6 col-md-6 col-sm-6 col-xs-4 "> 
+                          <!-- inicio temas no despegables--> 
+                           <div id="div" class="col-lg-12 col-md-12 col-sm-12 hidden-xs "> 
+                             <div id="div" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "> 
+                             <img id="img4" src="img/logo.png">
+                            </div>
+                            <div id="div" class="col-lg-10 col-md-10 col-sm-10 col-xs-10 "> 
+                               <a class="navbar-brand" href="index.html" >Funcion</a> 
+                               <a class="navbar-brand" href="pagina2.html">Limite</a>
+                               <a class="navbar-brand" href="pagina3.html">Derivada</a> 
+                            </div>
+                            </div>
+                            <!-- inicio temas no despegables--> 
+       
+                           <!-- inicio de menu despegable--> 
+                             <div id="div1" class="hidden-lg hidden-md hidden-sm col-xs-12 "> 
+                                 <div id="divimg"  class="hidden-lg hidden-md hidden-sm col-xs-6 "> 
+                                     <img id="img1" src="img/logo.png">
+                                   </div>
+                                     <div class="hidden-lg hidden-md hidden-sm col-xs-6 "> 
+                                         <div class="btn-group">
+                                             <button type="button" class="btn btn-default dropdown-toggle"
+                                                     data-toggle="dropdown">
+                                              Temas<span class="caret"></span>
+                                             </button>
+                                           
+                                             <ul class="dropdown-menu" role="menu">
+                                               <li><a href="index.html">FuncionO</a></li>
+                                               <li><a href="pagina2.html">Limite</a></li>
+                                               <li><a href="pagina3.html">Derivdas</a></li> 
+                                             </ul>
+                                           </div>
+                                      </div> 
+                             </div> 
+                              <!--FIN de menu despegable-->  
+                         </div>
+                   </div>
+       
+                         <div class="visible-lg visible-md visible-sm">
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 "> 
+                             <div id="div1" class="col-lg-10 col-md-10 col-sm-10 col-xs-10 "> 
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                </div>
+                                <div id="div1" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 "> 
+                                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </div>
+                          </div>
+                         </div>
+       
+                         </div>
+                         </div><!-- fin del row-->
+                         <!--FIN PRIMERA FILA--> 
+                      <div class="row"> 
+               <div role="tabpanel">
+                  <ul class="nav nav-tabs">
+                      <li role="presentation" class="active">
+                          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Definicion</a>
+                      </li>
+                      <li role="presentation">
+                          <a href="#ejemplos" aria-controls="ejemplos" role="tab" data-toggle="tab">Ejemplos</a>
+                      </li>
+                      <li role="presentation">
+                          <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Problemas</a>
+                      </li>
+                  </ul>
+                </div>
+                      </div><!-- row-->
+                  <!-- Tab panes -->
+                  <div class="row">
+                  <div class="tab-content">
+                      <div role="tabpanel" class="tab-pane active" id="home">
+                          <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "> 
+                             <h2 style="text-align:center">Definicion provisional del limite</h2>
+                            </div> 
+                            <div class="row">
+                             <div id="txt1" class="col-lg-12 col-md-12 hidden-sm hidden-xs "> 
+                                 La funcion f tiende hacia el limite l cerca de a 
+                                 si se puede hacer que f(x) esté tan cerca como queramos
+                                 de l haciendo x´ éste suficiente cerca de a, pero siendo 
+                                 distinto de a. 
+                                 De las seis funciones dibujadas en la figura 1, solamente las tes primeras</br>
+                                 tienden hacia l en a. Nótese que aunque no se haya definido g(a) y h(a)</br>
+                                 esté definido "de mala manera", se sigue cumpliendo que g y h tienden hacia l cerca de a. 
+                                 Una función f(x) es continua en un punto a si <nobr>lim<sub>x->a</sub>f(x) = f(a).</nobr>
+                                 Continuidad en un intervalo cerrado [a,b]</br>
+                                 Una función f(x) es continua en un intervalo cerrado [a,b] si:</br>
+                                 f es continua en a por la derecha</br>
+                                 f es continua en b por la izquierda</br>
+                                 f es continua en x, para todo x perteneciente al intervalo abierto (a,b)</br>
+                                </div>
+                                  </div>
+                                  <div class="row">
+                                <div  id="txt2"style="     padding: 15px 29px 17px 36px; background: slategray;" class="hidden-lg hidden-md col-sm-12 col-xs-12   "> 
+                                    La funcion f tiende hacia el limite l cerca de a 
+                                    si se puede hacer que f(x) esté tan cerca como queramos
+                                    de l haciendo x´ éste suficiente cerca de a, pero siendo 
+                                    distinto de a. 
+                                    De las seis funciones dibujadas en la figura 1, solamente las tes primeras 
+                                    tienden hacia l en a. Nótese que aunque no se haya definido g(a) y h(a) 
+                                    esté definido "de mala manera", se sigue cumpliendo que g y h tienden hacia l cerca de a. 
+                                    Una función f(x) es continua en un punto a si <nobr>lim<sub>x->a</sub>f(x) = f(a).</nobr>
+                                    Continuidad en un intervalo cerrado [a,b]</br>
+                                    Una función f(x) es continua en un intervalo cerrado [a,b] si:</br>
+                                    f es continua en a por la derecha</br>
+                                    f es continua en b por la izquierda</br>
+                                    f es continua en x, para todo x perteneciente al intervalo abierto (a,b)</br>
+                                   </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="background:slategray">
+                              <div  class="col-lg-5 col-md-5 col-sm-5 col-xs-5 "> 
+                                <img  src="img/imgc1.PNG">
+                                 </div>
+                                 <div  class="col-lg-5 col-md-5 col-sm-5 col-xs-5 "> 
+                                    <img  src="img/imglimite.png">
+                                     </div>
+                                 </div>
+                                </div> 
+
+                      </div><!-- home-->
+                      <div role="tabpanel" class="tab-pane" id="ejemplos">  
+                            <div class="row"> <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                 <h1>Algunos ejemplos de limite</h1>
+                             </div>
+                            </div>
+                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+
+                                <div id="ejlim1" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 ">    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "><h2>Límite 1 </br><img id="img" src="img/imgc3.PNG"></h2></div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                        Tenemos un cociente de polinomios. Como el </br>límite es al infinito y el grado
+                                         del polinomio del</br> numerador es mayor que el del denominador:  </br>
+                                       <img id="img" src="img/imgc2.PNG"></br>
+                                      </div> 
+                                 </div>
+                                 
+                                 <div id="ejlim2"  class="col-lg-4 col-md-6 col-sm-12 col-xs-12 ">    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "><h2>Límite 2 </br><img id="img" src="img/imgc4.PNG"></br></h2></div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                        Tenemos un cociente de polinomios. Como el </br>límite  es al infinito y el grado
+                                         del polinomio del</br> numerador es mayor que el del denominador:  </br>
+                                       <img id="img" src="img/imgc5.PNG">
+                                      </div> 
+                                 </div>
+
+                                 <div id="ejlim3"  class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">       
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "><h2>Límite 3 </br><img id="img" src="img/imgc6.PNG"></h2></div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                        Efectuamos el producto en el denominador: </br>
+                                       <img id="img" src="img/imgc7.PNG"></br>
+                                       Como el límite es al infinito y el grado del polinomio del</br> polinomio del denominador es mayor que el del numerador:</br>
+                                       <img id="img" src="img/imgc8.PNG">
+                                      </div> 
+                                 </div>
+                                 
+                            </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="messages"> </div>
+                  </div>
+            </div>
+              </div>
+ 
+
+          </div><!-- container -->
+         
+         </body>
+         </html>
